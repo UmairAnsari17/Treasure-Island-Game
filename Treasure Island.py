@@ -24,13 +24,9 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 chose1 = input('You\'re at a cross road. Where do you want to go?\n Type "left" or "right". \n').lower()
 if chose1 == "left":
-    chose2 = input('You\'ve come to a lake. There is an island in the middle of the lake.\n
-    Type "wait" to Wait for boat.
-    Type "swim" to Swim across.\n').lower()
+    chose2 = input('You\'ve come to a lake. There is an island in the middle of the lake.\nType "wait" to Wait for boat.Type "swim" to Swim across.\n').lower()
     if chose2 == "wait":
-        chose3 = input("You arrive at the island unharmed. 
-        There is a house with 3 doors.\n One red, one yellow, one blue.
-        Which colour do you want to chose?\n").lower()
+        chose3 = input("You arrive at the island unharmed. There is a house with 3 doors.\n One red, one yellow, one blue. Which colour do you want to chose?\n").lower()
         if chose3 == "yellow":
             print("You found the treasure! You Win!")
         elif chose3 == "red":
